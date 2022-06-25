@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Service</title>
+    <script src="https://kit.fontawesome.com/954a6fbf4e.js" crossorigin="anonymous"></script>
+    <style>
+        body
+        {
+            background-color: black;
+            color: white;
+        }
+        .flex-service
+        {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            align-items: flex-end;
+            flex-wrap: wrap;
+        }
+        h1
+        {
+            font-size: 48px;
+            text-align: center;
+            margin-top: 7%;
+        }
+            .card
+            {
+                border: 1px solid gray;
+                border-radius: 25px;
+                width: 20vw;
+                height: 40vh;
+                /* background-color:rgba(0, 0, 0, 0.208); */
+                background: #304352;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #d7d2cc, #304352);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #d7d2cc, #304352); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+                color:black;
+            }
+            .flex-service h2
+            {
+                /* border-bottom: 1px solid black; */
+                text-align: center;
+                text-shadow: 2px 3px 5px red;
+                font-size: 26px;
+            }
+            .flex-service button
+            {
+                position: relative;
+                left: 7vw;
+                border-radius: 30px;
+                background-color:red;
+                color: white;
+                padding: 7px;
+                border: 1px solid red;
+                margin: 10px 0px;
+            }
+            .flex-service p
+            {
+                text-align: center;
+            }
+    </style>
+</head>
+<body>
+    <h1>Our Service</h1>
+    <div class="flex-service">
+        <div class="card1 card">
+            <!-- why i fail to do icon linking  -->
+            <!-- <i class="fa-solid fa-grip-lines"></i> -->
+            <h2>HTML</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique omnis doloribus, ipsam provident quis corrupti illum quo dignissimos eligendi natus.</p>
+            <button>Read more</button>
+        </div>
+        <div class="card2 card">
+            <h2>CSS</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius aut incidunt voluptates ab voluptatum, qui illum voluptatibus magnam placeat. At?</p>
+            <button>Read more</button>
+        </div>
+        <div class="card3 card">
+            <h2>JS</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus error perferendis exercitationem commodi ad. Repellat magni recusandae et atque corrupti.</p>
+            <button>Read more</button>
+
+        </div>
+    </div>
+</body>
+</html>
