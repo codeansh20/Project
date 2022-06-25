@@ -1,0 +1,288 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    background-color:black;
+}
+html
+{
+    scroll-behavior: smooth;
+    overflow: auto;
+}
+.firstt
+{
+    height: 100vh;
+    width: 100vw;
+}
+.middle
+{
+    height: 100vh;
+    width: 100vw;
+}
+.last
+{
+    height: 100vh;
+    width: 100vw;
+}
+.firstt h2
+{
+   color: red;
+   font-size: 40px;
+   text-transform: capitalize;
+   text-align: center;
+   background-color: lightgreen;
+   width: 40vw;
+   margin: 0px 30vw;
+   text-shadow: 7px 8px 7px black;
+}
+.head
+{
+    height: 30vh;
+    width: 99vw;
+    /* border-bottom: 1px solid black; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+}
+.head button
+{
+    padding: 12px;
+    width: 16vw;
+    background-color: yellow;
+}
+.head button
+{
+    padding: 12px;
+    width: 16vw;
+    background-color: yellow;
+    cursor: pointer;
+    border: none;
+}
+.head button>b
+{
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 900;
+    opacity: 0.8;
+}
+.head button>b:hover
+{
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 900;
+    opacity: 1;
+    cursor: pointer;
+    text-shadow: 4px 4px 8px black;
+}
+.second
+{
+    height: 70vh;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content:space-evenly;
+  width: 100vw;
+}
+.second .image
+{
+    width: 60vw;
+    height: 60vh;
+  background-image: url(https://images.unsplash.com/photo-1600891964599-f61ba0e24092?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80);
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* transform: rotate(120,80); Still wanna learn and use this */
+}
+/* .image h3
+{
+    position: absolute;
+    bottom
+    :20px;
+    background-color: yellow;
+    color: black;
+    border: 1px solid black;
+    width: 20vw;
+    margin-bottom: 16px;
+    padding: 20px;
+}
+.image p
+{
+    background-color: yellow;
+    width: 20vw;
+    padding: 20px;
+
+    border: 1px solid black;
+    color: black;
+} */
+.text
+{
+    display: flex;
+  flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    height: 60vh;
+    width: 30vw;
+}
+.box1
+{
+    background-color: yellow;
+    width:25vw ;
+    text-align: center;
+    font-size: 30px;
+    padding: 30px;
+}
+.box2
+{
+    width:25vw ;
+    padding: 30px;
+    background-color: yellow;
+    text-align: center;
+    font-size: 30px;
+}
+.text div p:first-child
+{
+   font-weight: 900;
+   font-size: larger;
+   font-family: sans-serif;
+}
+.text div p:last-child
+{
+   font-weight: 400;
+   font-size: large;
+   font-family: 'Times New Roman', Times, serif;
+}
+.third
+{
+    display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+    height: 35vh;
+    width: 99vw;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+}
+.third h3
+{
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.third p
+{
+    text-align: center;
+    font-family: sans-serif;
+}
+.boxes
+{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    width: 20vw;
+    padding:25px;
+}
+.boxes h3
+{
+    margin-bottom: 15px;
+}
+.fourth
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: black;
+    color: white;
+    justify-content: space-around;
+    width: 99vw;
+    height: 65vh;
+}
+.img
+{
+    background-image: url(https://images.unsplash.com/photo-1586190848861-99aa4a171e90?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80);
+    width: 30vw;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.txt
+{
+    display:flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+    justify-content: center;
+    align-items:flex-start;
+    align-content:flex-start;
+    width: 60vw;
+    border: 1px solid black;
+    text-align:center;
+}
+.txt h3
+{
+    font-family: sans-serif;
+    font-size: 30px;
+    font-weight:bolder;
+    margin-bottom: 10px;
+    text-shadow: 4px 4px 5px rgb(235, 10, 10);
+}
+.txt p
+{
+    font-size: 20px;
+}
+.txt button
+{
+    margin-top: 20px;
+    padding: 12px;
+    font-size: 20px;
+    background-color: yellow;
+    border-radius: 30px;
+    width: 13vw;
+    justify-content: center;
+}
+.txt button:hover
+{
+    cursor: pointer;
+    padding: 14px;
+    border-radius: 20px;
+    color: rgb(34, 0, 255);
+}
+.fifth
+{
+    margin-top: 20px;
+    display: grid;
+    justify-content:space-evenly;
+    align-items: center;
+    row-gap: 2vh;
+    grid-template-rows: auto auto;
+    grid-template-columns: auto auto auto auto auto;
+}
+.fifth img
+{
+    width: 16vw;
+    height: 44vh;
+    object-fit: cover;
+
+}
+.last p
+{
+    margin-top: 10px;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    font-family: sans-serif;
+    color: white;
+}
+/* Unable to use media query still learning it to make responsive website */
+@media only screen and (max-width: 400px) {
+    body
+    {
+      display: flex;
+      flex-direction: column;
+    }
+}
